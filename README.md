@@ -18,8 +18,8 @@ Each week we will cover a new topic different topic within iOS Development. You 
 
 ## Mentors
 
-|Photo|Name|Contact|Fun fact|
-|---|---|---|---|
-|<img src="/instructor/ryan.jpg" width="200px" />|Shashank Sharma|[fb messenger](https://m.me/shashank135sharma)|I apparently laugh while I sleep.|
-|<img src="/instructor/IMG_2310.jpg" width="200px" />|Vineeth Puli|[fb messenger](https://m.me/vp314)||
-|<img src="/instructor/IMG_2310.jpg" width="200px" />|Salman Fakhri|[fb menssenger](https://m.me/salman.fakhri2)|I wave flags in front of fast cars and bikes from time to time.|
+|Photo|Name|Contact|
+|---|---|---|
+|<img src="/instructor/ryan.jpg" width="200px" />|Shashank Sharma|[fb messenger](https://m.me/shashank135sharma)|
+|<img src="/instructor/IMG_2310.jpg" width="200px" />|Vineeth Puli|[fb messenger](https://m.me/vp314)|
+|<img src="/instructor/IMG_2310.jpg" width="200px" />|Salman Fakhri|[fb menssenger](https://m.me/salman.fakhri2)|
