@@ -16,3 +16,6 @@ Today we will be going over basic swift syntax. Open up AcceleratoriOS.playgroun
  	- https://blog.usejournal.com/swift-basics-struct-vs-class-31b44ade28ae
 * View Controllers
 	- https://www.appcoda.com/view-controller-lifecycle/
+* iOS App Life Cycle
+https://developer.apple.com/library/archive/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/TheAppLifeCycle/TheAppLifeCycle.html
+
