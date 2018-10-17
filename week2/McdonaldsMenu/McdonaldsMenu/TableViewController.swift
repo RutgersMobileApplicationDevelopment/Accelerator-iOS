@@ -14,24 +14,20 @@ class TableViewController: UITableViewController {
      
      TASK: Build an app that displays menus items from the data provided in "menu"
      
-     Your app should
-        * Have two sections, one for burgers and one for deserts
-        * Each section header should have a title
-        * the cells for each menu item should display
-            - the item name
-            - an image of the item
-            - the price of the item
-            - the calories of the item
-    
-        TableViewController needs three functions
-            1)  numberOfSection
-            2)  numberOfRowsInSection
-            3)  cellForRowAt
+     1) Group work
      
-        You may also find the following functions useful
-            - titleForHeaderInSection
-            - heightForRowAt indexPath
-            - didSelectRowAt indexPath
+     Your app should
+     * Have two sections, one for burgers and one for deserts
+     * Each section header should have a title
+     * the cells for each menu item should display
+        - the item name
+        - the price of the item
+     
+     2) Home Work
+     
+        - Try to add images to the cells
+        - show calories for each item
+
      */
     
     let menu = MenuData().menu
@@ -41,7 +37,33 @@ class TableViewController: UITableViewController {
         
     }
 
-    // write you code below
+    // implement the functions below
+    
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        <#code#>
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
+    }
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        <#code#>
+    }
+    
+    // optional
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        <#code#>
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        <#code#>
+    }
     
     
 }
