@@ -1,8 +1,12 @@
-var contacts: [String: [String]] = [
-    "A": ["Andi", "Ayush"],
-    "S": ["Salman", "Shashank", "Sujit"],
-    "B": ["Ben", "Benjamin"]
+var contacts: [String] = [
+    "Andi", "Ayush", "Salman", "Shashank", "Sujit", "Ben", "Benjamin"
 ]
+
+//    var contacts: [String: [String]] = [
+//        "A": ["Andi", "Ayush"],
+//        "S": ["Salman", "Shashank", "Sujit"],
+//        "B": ["Ben", "Benjamin"]
+//    ]
 
 //    var contacts: [String: [Contact]] = [
 //        "A": [
