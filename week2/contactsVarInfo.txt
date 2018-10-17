@@ -1,0 +1,22 @@
+var contacts: [String: [String]] = [
+    "A": ["Andi", "Ayush"],
+    "S": ["Salman", "Shashank", "Sujit"],
+    "B": ["Ben", "Benjamin"]
+]
+
+//    var contacts: [String: [Contact]] = [
+//        "A": [
+//            Contact(name: "Andi", phoneNumber: "(111)-111-1111"),
+//            Contact(name: "Ayush", phoneNumber: "(222)-222-2222")
+//        ],
+//        "S": [
+//            Contact(name: "Salman", phoneNumber: "(333)-333-3333"),
+//            Contact(name: "Shashank", phoneNumber: "(444)-444-4444"),
+//            Contact(name: "Sujit", phoneNumber: "(555)-555-5555")
+//        ],
+//        "B": [
+//            Contact(name: "Ben", phoneNumber: "(666)-666-6666"),
+//            Contact(name: "Benjamin", phoneNumber: "(777)-777-7777")
+//        ]
+//    ]
+
