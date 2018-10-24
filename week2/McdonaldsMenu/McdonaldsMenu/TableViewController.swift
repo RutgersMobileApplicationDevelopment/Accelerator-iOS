@@ -21,7 +21,6 @@ class TableViewController: UITableViewController {
      * Each section header should have a title
      * the cells for each menu item should display
         - the item name
-        - the price of the item
      
      2) Home Work
      
@@ -40,15 +39,27 @@ class TableViewController: UITableViewController {
     // implement the functions below
     
     override func numberOfSections(in tableView: UITableView) -> Int {
-        <#code#>
+        return menu.sections
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        if section == 0 {
+            menu.burgers.count
+        } else {
+            menu.deserts.count
+        }
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "identifier")!
+        //cell.textLabel?.text = menu.sections
+        if (indexPath.section) == 0 {
+            cell.textLabel?.text
+        } else if (indexPath.section) == 1{
+            
+        }
+        return cell
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -56,14 +67,6 @@ class TableViewController: UITableViewController {
     }
     
     // optional
-    
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        <#code#>
-    }
-    
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        <#code#>
-    }
     
     
 }
