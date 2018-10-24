@@ -1,3 +1,5 @@
+    https://drive.google.com/file/d/1ypjLnO-5Q6cHGGy2MLfDVrCw2a63tm7l/view?usp=sharing
+    
     // Part 1
    
     var schedule: [String] = ["Calc 2", "CS111", "CS205", "RUMAD iOS meeting"]
