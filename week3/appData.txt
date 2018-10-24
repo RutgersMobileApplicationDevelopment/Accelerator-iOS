@@ -1,0 +1,60 @@
+    // Part 1
+   
+    var schedule: [String] = ["Calc 2", "CS111", "CS205", "RUMAD iOS meeting"]
+
+
+
+
+
+
+    // Part 2
+    
+    var schedule: [String: [scheduledClass]] = [
+        "Monday": ["Calc 2", "CS205"],
+        "Tuesday": ["CS111", "CS214"],
+        "Wednesday": ["Calc 2", "CS205", "Accelerator Meeting"],
+        "Thursday" : ["CS111", "CS214"],
+        "Friday": []
+    ]
+    
+    var days: [String] = [
+        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"
+    ]
+    
+    
+    
+    
+    
+    
+    // Part 3
+
+    struct scheduledClass {
+        var buildingImage: UIImage
+        var time: String
+        var className: String
+    }
+
+    static var tillet: UIImage = #imageLiteral(resourceName: "Tillet")
+    static var bbuilding: UIImage = #imageLiteral(resourceName: "Business Building")
+    static var hillCenter: UIImage = #imageLiteral(resourceName: "Hill Centers")
+    
+    static var calc2: scheduledClass = .init(buildingImage: tillet, time: "1:00PM", className: "Calc 2")
+    static var cs205: scheduledClass = .init(buildingImage: bbuilding, time: "4:00PM", className: "CS205")
+    static var cs111: scheduledClass = .init(buildingImage: hillCenter, time: "3:00PM", className: "CS111")
+    static var cs214: scheduledClass = .init(buildingImage: tillet, time: "6:00PM", className: "CS214")
+    static var rumad: scheduledClass = .init(buildingImage: hillCenter, time: "9:00PM", className: "iOS")
+    
+    
+    var schedule: [String: [scheduledClass]] = [
+        "Monday": [calc2, cs205],
+        "Tuesday": [cs111, cs214],
+        "Wednesday": [calc2, cs205, rumad],
+        "Thursday" : [cs111, cs214],
+        "Friday": []
+    ]
+    
+    var days: [String] = [
+        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"
+    ]
+
+
