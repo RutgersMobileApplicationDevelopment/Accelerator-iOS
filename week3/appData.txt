@@ -11,7 +11,7 @@
 
     // Part 2
     
-    var schedule: [String: [scheduledClass]] = [
+    var schedule: [String: [String]] = [
         "Monday": ["Calc 2", "CS205"],
         "Tuesday": ["CS111", "CS214"],
         "Wednesday": ["Calc 2", "CS205", "Accelerator Meeting"],
