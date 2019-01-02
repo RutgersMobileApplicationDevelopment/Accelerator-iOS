@@ -24,9 +24,10 @@ class ViewController: UIViewController {
         
         api.getPokemon { (pokemonData) in
             self.pokemon = pokemonData.results
-            DispatchQueue.main.async {
-                self.tableView.reloadData()
-            }
+            self.tableView.reloadData()
+            //DispatchQueue.main.async {
+              //  self.tableView.reloadData()
+            //}
         }
         
     }
@@ -46,6 +47,15 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "pokemonCell", for: indexPath)
         cell.textLabel?.text = pokemon[indexPath.row].name
+        
+        //code for getting image from url
+        let url = URL(string: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/\(indexPath.row + 1).png")
+        let data = try? Data(contentsOf: url!) //make sure your image in this url does exist, otherwise unwrap in a if let check / try-catch
+        guard let imageData = data else {
+            return cell
+        }
+        cell.imageView?.image = UIImage(data: imageData)
+    
         return cell
     }
     
